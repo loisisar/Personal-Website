@@ -123,6 +123,7 @@ th, td{
     color:black;
 }
 
+
 button{
     background-color: rgb(35, 27, 122);
     border-radius: 2rem;
@@ -131,6 +132,15 @@ button{
 }
 .google-trends{
     overflow: visible;
+}
+
+/* Feeld */
+.feeld{
+    height: 100vh;
+    width: 100vw;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (max-width: 600px) {
